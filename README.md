@@ -118,7 +118,7 @@ function isRobot() {
 ?>
 ```
 
-##测试正常用户访问
+##3.测试正常用户访问
 ```php
 <?php
 $url = 'http://localhost/index.php'; // 访问index.php
@@ -158,7 +158,7 @@ function doCurl($url, $data=array(), $header=array(), $timeout=30){
 }  
 ?>
 ```
-输出页面内容<br><br>
+输出页面内容
 ```html
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -201,7 +201,7 @@ function doCurl($url, $data=array(), $header=array(), $timeout=30){
 ```
 使用了异步并发加载，提高页面输出速度。<br><br>
 
-##测试搜索引擎机器人访问
+##4.测试搜索引擎机器人访问
 ```php
 <?php
 $url = 'http://localhost/index.php'; // 访问index.php
@@ -244,7 +244,6 @@ function doCurl($url, $data=array(), $header=array(), $timeout=30){
 ?>
 ```
 输出页面内容
-<br><br>
 ```html
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
